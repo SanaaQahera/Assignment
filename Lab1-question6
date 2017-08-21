@@ -1,1 +1,18 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+  double r,dia,circ,area;
+  cout <<"Enter the area of the circle\n";
+  cin >>r;
+  dia = 2*r;
+  cout <<"The diameter is = " <<dia;
+  cout <<"\n";
+  circ = 2*3.14*r;
+  cout <<"The circumference is = " <<circ;
+  cout <<"\n";
+  area = 3.14*r*r;
+  cout <<"The area is = " <<area;
+  cout <<"\n";
+	return 0;
+}
