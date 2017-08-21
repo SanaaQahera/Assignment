@@ -1,1 +1,21 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+ double a,b,sum,sub,prod,div;
+ cout <<"Enter two numbers\n";
+ cin >>a >>b;
+ sum = a+b;
+ cout <<"The sum is = " <<sum;
+ cout <<"\n";
+ sub = a-b;
+ cout <<"The difference is = " <<sub;
+ cout <<"\n";
+ prod = a*b;
+ cout <<"The product is = " <<prod;
+ cout <<"\n";
+ div = a/b;
+ cout <<"The quotient is = " <<div;
+ 
+	return 0;
+}
