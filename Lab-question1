@@ -1,1 +1,20 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+	char a;
+	cout <<"Enter a character\n";
+	cin >>a;
+	cout <<"The character is = " <<a;
+	cout <<"\n";
+	int num1;
+	cout <<"Enter an integer\n";
+	cin >>num1;
+	cout <<"The integer is = " <<num1;
+	cout <<"\n";
+	double num2;
+	cout <<"Enter a decimal\n";
+	cin >>num2;
+	cout <<"The decimal is = " <<num2;
+	return 0;
+}
